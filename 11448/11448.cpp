@@ -1,48 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //   753
 // - 491
 // -----
@@ -59,38 +15,6 @@
 // - 491
 // -----
 //   262 (carry 0)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #include <string>            // Strings
 #include <algorithm>         // Standard Template Library: Algorithms
