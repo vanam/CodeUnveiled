@@ -50,7 +50,7 @@ with open('input.txt') as f:
                     dist[(x, y)][new_dir] = heat_loss
                     pq.put((heat_loss, (x, y), new_dir))
 
-    print(min(dist[(len(heat_loss_map) - 1, len(heat_loss_map[0]) - 1)].values()))
+    print(min(dist[(len(heat_loss_map[0]) - 1, len(heat_loss_map) - 1)].values()))
 
 # 2. part - Directing the ultra crucible from the lava pool to the machine parts factory, 
 #           what is the least heat loss it can incur?
@@ -105,7 +105,7 @@ with open('input.txt') as f:
                     dist[(x, y)][new_dir] = heat_loss
                     pq.put((heat_loss, (x, y), new_dir))
 
-    print(min(dist[(len(heat_loss_map) - 1, len(heat_loss_map[0]) - 1)].values()))
+    print(min(dist[(len(heat_loss_map[0]) - 1, len(heat_loss_map) - 1)].values()))
 
 
 # 1. and 2. part combined
@@ -158,7 +158,7 @@ def get_min_heat_loss(heat_loss_map, blocks_before_turn, max_in_direction):
                     dist[(x, y)][new_dir] = heat_loss
                     pq.put((heat_loss, (x, y), new_dir))
 
-    return min(dist[(len(heat_loss_map) - 1, len(heat_loss_map[0]) - 1)].values())
+    return min(dist[(len(heat_loss_map[0]) - 1, len(heat_loss_map) - 1)].values())
 
 with open('input.txt') as f:
     heat_loss_map = [list(map(int, line.strip())) for line in f.readlines()]
