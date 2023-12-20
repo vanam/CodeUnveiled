@@ -1,4 +1,5 @@
-# https://adventofcode.com/2023/day/20
+# Puzzle:            https://adventofcode.com/2023/day/20
+# Video explanation: https://youtu.be/zw7WwUZfYrs
 
 # 1. part - What do you get if you multiply the total number of low pulses sent by the total number of high pulses sent?
 from collections import defaultdict

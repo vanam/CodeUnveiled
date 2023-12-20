@@ -1,4 +1,4 @@
-# Puzzle:            # https://adventofcode.com/2023/day/19
+# Puzzle:            https://adventofcode.com/2023/day/19
 # Video explanation: https://youtu.be/tvyvJ0CqnXo
 
 # 1. part - What is the sum of the rating numbers of accepted parts?
